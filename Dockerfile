@@ -1,4 +1,4 @@
-FROM stretch-slim
+FROM debian:stretch-slim
 
 RUN apt update -yqqq
 RUN apt upgrade -y
